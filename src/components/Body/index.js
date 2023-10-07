@@ -1,6 +1,5 @@
 import { styled } from "styled-components";
 import Qualificacoes from "./qualificacoes";
-import Formacao from "./informacoes";
 import Informacoes from "./informacoes";
 
 export default function Body(){

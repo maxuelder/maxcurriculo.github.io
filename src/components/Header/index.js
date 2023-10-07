@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import Information from "./Information";
+import Information from "./Informacoes";
 import Logo from "./Logo";
 
 export default function Header(){

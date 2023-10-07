@@ -36,10 +36,6 @@ const FormacaoContainer = styled.div`
     width: 90%;
 `
 
-const FormacaoInfoContainer = styled.div`
-    left: 7%
-`
-
 const FormacaoInfo = styled.div`
     background-color: #ffffff;
     border-radius: 20px;
