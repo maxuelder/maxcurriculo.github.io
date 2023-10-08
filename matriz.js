@@ -66,34 +66,25 @@ function criarMatriz(x,y){
 
         //preenche da esquerda para dieria
         for(let i = esquerda; i <= direita; i++){
-            
             matriz[superior][i] = valor++;
-            
         }
         superior++;
 
         //preenche de cima para baixo
         for(let i = superior; i <= inferior; i++){
-            
-
             matriz[i][direita] = valor++;
-            
         }
         direita--;
 
         //preenche da direita para esquerda
         for(let i = direita; i >= esquerda; i--){
-            
             matriz[inferior][i] = valor++;
-            
         }
         inferior--;
 
         //preenche de baixo para cima
         for(let i = inferior; i >= superior; i--){
             matriz[i][esquerda] = valor++;  
-    
-            
         }
         esquerda++;
     }
