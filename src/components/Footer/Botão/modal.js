@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import emailjs, { send } from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 
 
 export default function Modal({ mostrar, fecharModal, children }) {

@@ -1,5 +1,5 @@
 
-import { styled, css } from "styled-components";
+import { styled} from "styled-components";
 import { informacoes, nome, texto } from "./dadosInformacoes";
 export default function Information(){
     const isMobile = window.innerWidth < 778;
